@@ -1,6 +1,7 @@
 site_name: Programação para Front-end
 theme:
   name: readthedocs
+  logo: logo.png
   locale: pt_BR
 extra_css:
   - extra.css
@@ -13,19 +14,22 @@ nav:
     - Capítulo 1 - Introdução ao HTML: unid_01/html_intro.md
     - Capítulo 2 - Tags de básicas: unid_01/html_tags_basicas.md
     - Capítulo 3 - Inputs: unid_01/html_inputs.md
-    - Capítulo 4 - Formulários e requisições: unid_01/html_forms.md
-    - Capítulo 5 - Divisórias: unid_01/html_divs.md
+    - Capítulo 4 - Links e âncoras: unid_01/links_ancoras.md
+    - Capítulo 5 - Listas: unid_01/listas.md
+    - Capítulo 6 - Formulários e requisições: unid_01/html_forms.md
+    - Capítulo 7 - Divisórias: unid_01/html_divs.md
+    - Capítulo 8 - Barras de Navegação: unid_01/navbars.md
   - Unidade II - CSS:
-    - Capítulo 6 - Introdução ao CSS: unid_02/css_intro.md
-    - Capítulo 7 - Tipos de seletores: unid_02/css_seletores.md
-    - Capítulo 8 - Estilização para textos, títulos e parágrafos: unid_02/css_texto.md
-    - Capítulo 9 - Estilização de divs e containers: unid_02/css_div.md
-    - Capítulo 10 - Flex Layout: unid_02/css_flex_layout.md
-    - Capítulo 11 - Estilização para inputs e forms: unid_02/css_inputs_forms.md
+    - Capítulo 9 - Introdução ao CSS: unid_02/css_intro.md
+    - Capítulo 10 - Tipos de seletores: unid_02/css_seletores.md
+    - Capítulo 11 - Estilização para textos, títulos e parágrafos: unid_02/css_texto.md
+    - Capítulo 12 - Estilização de divs e containers: unid_02/css_div.md
+    - Capítulo 13 - Flex Layout: unid_02/css_flex_layout.md
+    - Capítulo 14 - Estilização para inputs e forms: unid_02/css_inputs_forms.md
   - Unidade III - Javascript:
-    - Capítulo 12 - Introdução ao Javascript: index.md
+    - Capítulo 15 - Introdução ao Javascript: index.md
   - Unidade IV - Bootstrap:
-    - Capítulo 13 - Introdução ao Bootstrap: index.md
+    - Capítulo 16 - Introdução ao Bootstrap: index.md
   - Unidade V - AngularJS:
-    - Capítulo 13 - Introdução ao AngularJS: index.md
+    - Capítulo 17 - Introdução ao AngularJS: index.md
   - Referências: referencias.md

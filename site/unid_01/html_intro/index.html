@@ -31,7 +31,8 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../.." class="icon icon-home"> Programação para Front-end
+          <a href="../..">
+          <img src="../../logo.png" class="logo" alt="Logo"/>
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -47,29 +48,39 @@
               <p class="caption"><span class="caption-text">Unidade I - HTML</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Capítulo 1 - Introdução ao HTML</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#definicao">Definição</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../html_tags_basicas/">Capítulo 2 - Tags de básicas</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../html_inputs/">Capítulo 3 - Inputs</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../html_forms/">Capítulo 4 - Formulários e requisições</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../links_ancoras/">Capítulo 4 - Links e âncoras</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../html_divs/">Capítulo 5 - Divisórias</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../listas/">Capítulo 5 - Listas</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html_forms/">Capítulo 6 - Formulários e requisições</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../html_divs/">Capítulo 7 - Divisórias</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../navbars/">Capítulo 8 - Barras de Navegação</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Unidade II - CSS</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_intro/">Capítulo 6 - Introdução ao CSS</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_intro/">Capítulo 9 - Introdução ao CSS</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_seletores/">Capítulo 7 - Tipos de seletores</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_seletores/">Capítulo 10 - Tipos de seletores</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_texto/">Capítulo 8 - Estilização para textos, títulos e parágrafos</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_texto/">Capítulo 11 - Estilização para textos, títulos e parágrafos</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_div/">Capítulo 9 - Estilização de divs e containers</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_div/">Capítulo 12 - Estilização de divs e containers</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_flex_layout/">Capítulo 10 - Flex Layout</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_flex_layout/">Capítulo 13 - Flex Layout</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_inputs_forms/">Capítulo 11 - Estilização para inputs e forms</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../unid_02/css_inputs_forms/">Capítulo 14 - Estilização para inputs e forms</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Unidade III - Javascript</span></p>
@@ -115,21 +126,137 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <iframe class="stackblitz"
-  src="https://stackblitz.com/edit/html-demo?embed=1&view=both">
+                <h1 id="introducao-ao-html">Introdução ao HTML</h1>
+<blockquote>
+<p>"Este é um pequeno passo para o homem, mas um salto gigantesco para a humanidade."<br />
+— Neil Armstrong</p>
+</blockquote>
+<p>Olá, aluno(a)!</p>
+<p>Neste capítulo, daremos início ao estudo da estrutura das páginas HTML, conhecendo seus elementos principais, tags e atributos de tags. Conhecer os elementos das páginas HTML de forma detalhada nos ajudará a entender a sua aplicação prática, sendo o primeiro passo para você se tornar um ótimo desenvolvedor front-end.</p>
+<p>O conteúdo a ser visto nesta unidade é base para o entendimento completo da programação front-end, já que essa é um misto de diversas tecnologias, sendo as três principais o HTML, o CSS e o Javascript. É claro que o desenvolvimento das aplicações web mais modernas utiliza os famosos frameworks, como o Bootstrap, muito utilizado para estilização, e também o AngularJS e o React, utilizados para desenvolvimento de aplicações SPA (Single Page Application), mas para que alcancemos o desenvolvimento com todas essas tecnologias citadas, começaremos aprendendo a mais básica de todas elas, o HTML.</p>
+<p>Aproveite esta jornada, caro(a) aluno(a), e enriqueça ainda mais seu conhecimento com o aprendizado deste livro. Teremos uma longa jornada pela frente, mas cada passo será fundamental para sua carreira.</p>
+<h2 id="definicao">Definição</h2>
+<h1 id="estrutura-inicial-do-html">Estrutura inicial do HTML</h1>
+<p>Praticamente todas as páginas web disponíveis hoje foram escritas - ou traduzidas de outras tecnologias - para HTML, CSS e Javascript, sendo essas as tecnologias que qualquer <em>browser</em> executa. Em todas as páginas HTML, há praticamente a mesma estrutura básica, escrita utilizando <em>tags</em> como em um arquivo XML (<em>eXtensible Markup Language</em>).</p>
+<p>Independentemente da complexidade da página visualizada, essa mesma estrutura básica está lá, utilizada para encapsular todo o conteúdo da página. Vamos observar essa estrutura a seguir:</p>
+<pre class="codehilite"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>O código apresentado mostra a estrutura de uma simples página HTML, gerada automaticamente em um arquivo <em>index.html</em> no editor de código <em>Microsoft Visual Studio Code</em> com o <em>snippet</em> <code>!</code> ou <code>html:5</code>. Observe que a estrutura possui poucas tags, e algumas tem sua função facilmente deduzíveis através de seus nomes, como é o caso das tags <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code> e <code>&lt;title&gt;</code>, sendo a <em>tag</em> de estrutura principal, a <em>tag</em> de cabeça - ou cabeçalho -, a <em>tag</em> de corpo, e a <em>tag</em> de título, respectivamente.</p>
+<p>Essas <em>tags</em> citadas organizam todo o conteúdo que será escrito no documento e renderizado como página no <em>browser</em> do usuário, como o título da página, os elementos de texto e imagens, links e principalmente controles de formulários de requisição. Todos esses elementos ficarão contidos dentro do conteúdo da <em>tag</em> <code>&lt;body&gt;</code>, entre seus delimitadores - <code>&lt;body&gt; [CONTEÚDO DO BODY] &lt;/body&gt;</code>.</p>
+<p>Por outro lado, temos <em>tags</em> que não são facilmente dedutíveis, como é o caso das <em>tags</em> <code>&lt;meta&gt;</code>, que aparece pelo menos duas vezes no código, além da tag <code>&lt;!DOCTYPE html&gt;</code>, que aparecem no início do documento. Veremos com calma a função de cada uma dessas tags na estrutura, mas o mais importante agora é que você entenda como iniciar um documento HTML utilizando as tags obrigaórias para isso.</p>
+<p>Para facilitar seu entendimento, vou apresentar a seguir uma tabela contendo uma breve descrição de cada uma das <em>tags</em> vista na estrutura básica do HTML:</p>
+<table>
+<thead>
+<tr>
+<th><em>Tag</em></th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;!DOCTYPE html&gt;</code></td>
+<td><em>Tag</em> responsável por identificar um documento HTML. 99% das páginas web são HTML. Essa tag é padronizada assim pelo HTML 5.</td>
+</tr>
+<tr>
+<td><code>&lt;html lang="en"&gt;</code></td>
+<td><em>Tag</em> responsável por definir e conter toda a estrura da página, ou seja o <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>. O atributo <code>lang="en"</code> define o idioma da página. No Brasil usamos <code>lang="pt-BR"</code>.</td>
+</tr>
+<tr>
+<td><code>&lt;head&gt;</code></td>
+<td><em>Tag</em> responsável por delimitar o conteúdo de cabeçalho, isto é o título da página, definido pela <em>tag</em> <code>&lt;title&gt;</code> e as configurações de exibição definidas pelas tags <code>&lt;meta&gt;</code>. Essa tag também pode conter os links para páginas de estilização e arquivos de script.</td>
+</tr>
+<tr>
+<td><code>&lt;meta charset="UTF-8"&gt;</code></td>
+<td><em>Tag</em> responsável pela configuração do conjunto de caracteres da página. O padrão é o <code>UTF-8</code></td>
+</tr>
+<tr>
+<td><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></td>
+<td><em>Tag</em> responsável pelo controle de responsividade da página em dispositivos móveis. Sem ela, os navegadores móveis simulam uma tela grande de desktop e depois reduzem a página inteira, o que deixa tudo pequeno.</td>
+</tr>
+<tr>
+<td><code>&lt;title&gt;</code></td>
+<td><em>Tag</em> responsável por definir o título da página</td>
+</tr>
+<tr>
+<td><code>&lt;/title&gt;</code></td>
+<td>Encerramento da <em>tag</em> <code>&lt;title&gt;</code></td>
+</tr>
+<tr>
+<td><code>&lt;/head&gt;</code></td>
+<td>Encerramento da <em>tag</em> <code>&lt;/head&gt;</code></td>
+</tr>
+<tr>
+<td><code>&lt;body&gt;</code></td>
+<td><em>Tag</em> responsável por conter todo o conteúdo visível da página: títulos, textos, links, campos, imagens, etc. É a <em>tag</em> em que mais iremos trabalhar</td>
+</tr>
+<tr>
+<td><code>&lt;/body&gt;</code></td>
+<td>Encerramento da <em>tag</em> <code>&lt;body&gt;</code></td>
+</tr>
+<tr>
+<td><code>&lt;/html&gt;</code></td>
+<td>Encerramento da <em>tag</em> <code>&lt;html&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="elementos-vazios-e-elementos-de-conteudo">Elementos vazios e elementos de conteúdo</h2>
+<p>Vamos fazer uma parada para entender um conceito importante aqui. Você notou que todas as <em>tags</em> iniciaram com seus respectivos nomes, mas algumas encerraram na mesma linha e outras encerraram com uma outra <em>tag</em>, com o mesmo nome, porém com o caractere <code>/</code> (barra) na frente? Se sim, então você percebeu que existem <strong>elementos vazios</strong>, como no caso das <em>tags</em> <code>&lt;meta&gt;</code> e <strong>elementos de conteúdo</strong>, como nas <em>tags</em> <code>&lt;html&gt;&lt;/html&gt;</code>, <code>&lt;head&gt;&lt;/head&gt;</code>, <code>&lt;title&gt;&lt;/title&gt;</code> e <code>&lt;body&gt;&lt;/body&gt;</code>.</p>
+<p>As <em>tags</em> de elementos vazios (<em>Empty Elements</em>) são tags que não possuem conteúdo interno, pois elas por si só já são consideradas a informação necessária. Elas podem ser metadados de informação, campos de formulários, imagens, links e até mesmo vinculação de arquivos de estilização. Elas sempre seguem essa estrutura:</p>
+<pre class="codehilite"><code class="language-html">    &lt;tag atributo1=&quot;valor1&quot; atributo1=&quot;valor1&quot;/&gt;
+</code></pre>
+
+<p>Observe que a <em>tag</em> inicia e fecha com <code>/&gt;</code> na mesma instrução, independentemente se a linha foi quebrada ou não.</p>
+<p>Já os elementos que possuem conteúdo (<em>Container elements</em>), precisam abrir e fechar em <em>tags</em> separadas. Por exemplo:</p>
+<pre class="codehilite"><code class="language-html">&lt;tag&gt;
+    conteúdo
+&lt;/tag&gt;
+</code></pre>
+
+<p>Isso acontece porque muitas vezes o conteúdo desses elementos é muito grande, então a formatação do HTML divide abertura e o encerramento em tags separadas, sendo a última encerrada por <code>&lt;/&gt;</code>. Geralmente essas tags são divisórias, títulos de página, parágrados, seções, artigos, e etc.</p>
+<h2 id="atributos">Atributos</h2>
+<p>Independentemente do tipo de elemento, qualquer um deles podem ter atributos, que são informações complementares do próprio elemento na página. Vimos no primeiro exemplo as <em>tags</em> <code>&lt;html lang="en"&gt;</code>, com o atributo <code>lang="en"</code>, e <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>, com os atributos <code>name="viewport"</code> e <code>content="width=device-width, initial-scale=1.0"</code>. </p>
+<p>Os atributos completam a informação do elemento, modificando seus valores e o comportamento da tela e dos elementos que os contém. Durante toda nossa jornada, vereremos a aplicação de atributos em quase todas os elementos, usados para estilização dimensionamento, atribuição de valores iniciais e até mesmo controle de do formulário de requisição.</p>
+<h2 id="construindo-a-primeira-pagina-indexhtml">Construindo a primeira página: index.html</h2>
+<p>Com os conhecimentos introdutórios aprendidos, vamos escrever nossa primeira página em HTML. À primeira vista, podemos criar um arquivo com qualquer nome, desde que a extensão do arquivo seja <code>.html</code>, para que tanto o editor de código possa reconhecer a linguagem quanto o <code>browser</code> renderize o conteúdo da página quando essa for requisitada. </p>
+<p>No entanto, por se tratar da página inicial, recomendo que, ao criar o arquivo, você o nomeie com o nome <code>index.html</code>. Isso irá permitir que, ao requisitar a url de um servidor, local ou remoto, o arquivo possa ser exibido de forma automática, sem especificar seu nome após o texto da url.</p>
+<blockquote>
+<p>O arquivo <code>index.html</code> - ou com outras extensões, como <code>index.php</code>, <code>index.jsp</code>, <code>index.aspx</code>, etc. - é o primeiro arquivo a ser exibido, não sendo necessária a especificação do nome na url. O servidor web se encarrega que verificar se há um arquivo index e o retorna naturalmente na primeira requisição. Ex.: <code>https://www.google.com</code> em vez de <code>https://www.google.com/index.html</code>.</p>
+</blockquote>
+<p>Após criar o arquivo <code>index.html</code>, coloque a estrutura básica do HTML no documento. Caso esteja utilizando algum editor de código, como o <em>Microsoft Visual Studio Code</em>, você pode digitar o caractere <code>!</code> pressionar as teclas <code>Ctrl</code> + <code>Espaço</code> para listar os <em>snippets</em> do editor. Em seguida, você seleciona a primeira opção e pressiona <code>Enter</code>.</p>
+<p><img alt="Microsoft Visual Studio Code Snippet HTML" src="../images/html_intro_vscode.png" title="Microsoft Visual Studio Code Snippet HTML" /></p>
+<p>A estrutura que obteremos será a mesma do primeiro exemplo. Iremos fazer apenas duas modificações no código, sendo a mudança no título <code>&lt;title&gt;Olá, Mundo!&lt;/html&gt;</code> e no corpo <code>&lt;body&gt;Minha primeira página em HTML&lt;/body&gt;</code>. Observe:</p>
+<pre class="codehilite"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Olá, Mundo!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    Minha primeira página em HTML
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Após a digitação, podemos salvar o arquivo e dar dois cliques nele para o <em>broser</em> abrir. Caso você esteja utilizando algum servidor de páginas web, como o <em>Xampp</em>, <em>Wampp</em>, <em>Apache</em>, ou mesmo utilizando alguma extensão do <em>vscode</em>, como o <em>Live Server</em>, execute os comandos necessários para renderizar a página no navegador.</p>
+<p>O resultao obtido será igual ou próximo a isto:</p>
+<iframe class="stackblitz"
+  src="https://stackblitz.com/edit/programacao-para-frontend-html-intro-index?embed=1&file=index.html&view=both">
 </iframe>
 
-<pre class="codehilite"><code class="language-html">    &lt;html&gt;
-    &lt;head&gt;
-        &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
-        &lt;!-- &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles.css&quot;&gt; --&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Hello there!&lt;/h1&gt;
-        &lt;a href=&quot;/me.html&quot;&gt;My other page&lt;/a&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-</code></pre>
+<h2 id="conclusao">Conclusão</h2>
+<p>E assim chegamos ao final deste primeiro capítulo. Vimos a base dos conceitos para criar nossa primeira página web, entendemos o que são tags e atributos, além de visualzarmos a página construida diretamente por um browser.</p>
               
             </div>
           </div><footer>

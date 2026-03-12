@@ -11,6 +11,7 @@ markdown_extensions:
 nav:
   - Início: index.md
   - UNICESUMAR ADS3SNA 2026:
+    - Trabalho 01 - 1º Bimestre (até 19/03/2026): unicesumar/2026/adsi3sna/trabalho_bimestre1_01.md
     - Aula 10/03/2026 - Programação do leiaute de dashboard - Parte I: unicesumar/2026/adsi3sna/aula_20260310.md
   - Unidade I - HTML:
     - Capítulo 1 - Introdução ao HTML: unid_01/html_intro.md

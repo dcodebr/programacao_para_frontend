@@ -9,23 +9,27 @@ markdown_extensions:
   - fenced_code
   - codehilite
 nav:
-  - Introdução: index.md
+  - Início: index.md
+  - UNICESUMAR ADS3SNA 2026:
+    - Aula 10/03/2026 - Programação do leiaute de dashboard - Parte I: unicesumar/2026/adsi3sna/aula_20260310.md
   - Unidade I - HTML:
     - Capítulo 1 - Introdução ao HTML: unid_01/html_intro.md
     - Capítulo 2 - Tags de básicas: unid_01/html_tags_basicas.md
     - Capítulo 3 - Inputs: unid_01/html_inputs.md
     - Capítulo 4 - Links e âncoras: unid_01/links_ancoras.md
-    - Capítulo 5 - Listas: unid_01/listas.md
+    - Capítulo 5 - Listas: unid_01/html_listas.md
     - Capítulo 6 - Formulários e requisições: unid_01/html_forms.md
     - Capítulo 7 - Divisórias: unid_01/html_divs.md
-    - Capítulo 8 - Barras de Navegação: unid_01/navbars.md
+    - Capítulo 8 - Barras de Navegação: unid_01/html_navbars.md
+    - Capítulo 9 - Seções e Artigos: unid_01/html_sessions_articles.md
   - Unidade II - CSS:
-    - Capítulo 9 - Introdução ao CSS: unid_02/css_intro.md
-    - Capítulo 10 - Tipos de seletores: unid_02/css_seletores.md
-    - Capítulo 11 - Estilização para textos, títulos e parágrafos: unid_02/css_texto.md
-    - Capítulo 12 - Estilização de divs e containers: unid_02/css_div.md
-    - Capítulo 13 - Flex Layout: unid_02/css_flex_layout.md
-    - Capítulo 14 - Estilização para inputs e forms: unid_02/css_inputs_forms.md
+    - Capítulo 10 - Introdução ao CSS: unid_02/css_intro.md
+    - Capítulo 11 - Tipos de seletores: unid_02/css_seletores.md
+    - Capítulo 12 - Estilização para textos, títulos e parágrafos: unid_02/css_texto.md
+    - Capítulo 13 - Estilização de divs e containers: unid_02/css_div.md
+    - Capítulo 14 - Flexbox: unid_02/css_flexbox.md
+    - Capítulo 15 - Média Queries: unid_02/css_media_queries.md
+    - Capítulo 16 - Estilização para inputs e forms: unid_02/css_inputs_forms.md
   - Unidade III - Javascript:
     - Capítulo 15 - Introdução ao Javascript: index.md
   - Unidade IV - Bootstrap:

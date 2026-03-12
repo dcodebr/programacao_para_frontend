@@ -122,4 +122,4 @@ O resultao obtido será igual ou próximo a isto:
 
 ## Conclusão
 
-E assim chegamos ao final deste primeiro capítulo. Vimos a base dos conceitos para criar nossa primeira página web, entendemos o que são tags e atributos, além de visualzarmos a página construida diretamente por um browser.
+E assim chegamos ao final deste primeiro capítulo. Vimos a base dos conceitos para criar nossa primeira página web, entendemos o que são tags e atributos, além de visualizarmos a página construída diretamente por um browser.

@@ -49,6 +49,8 @@
               <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../trabalho_bimestre1_01/">Trabalho 01 - 1º Bimestre (até 19/03/2026)</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../revisao_prova_bimestre_1/">REVISÃO DE PROVA - 1º Bimestre - 31/04/206</a>
+                  </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Aula 10/03/2026 - Programação do leiaute de dashboard - Parte I</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#pre-requisitos">Pré-requisitos</a>
@@ -66,6 +68,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../aula_20260312/">Aula 12/03/2026 - Programação do leiaute de dashboard - Parte II</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../aula_20260317/">Aula 17/03/2026 - Programação do leiaute de dashboard - Parte III</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../revisao_prova_bimestre_1/">REVISÃO DE PROVA - 1º Bimestre - 31/04/206</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Unidade I - HTML</span></p>
@@ -168,69 +172,69 @@
 
 <h2 id="estruturacao-da-pagina-div-container-e-divs-estruturais">Estruturação da página: div container e <em>divs</em> estruturais</h2>
 <p>A página de <em>dashboard</em> possui três <em>divs</em> principais, sendo a div <code>container</code>, responsável pela organização do leiaute do <em>viewport</em>, a principal estrutura. </p>
-<pre class="codehilite"><code class="language-html">  &lt;div class=&quot;container&quot;&gt;
-    &lt;div class=&quot;menu&quot;&gt;
-      &lt;div class=&quot;logo&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;left-navbar&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;conteudo&quot;&gt;
-      &lt;div class=&quot;top-navbar&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</code></pre>
+<div class="codehilite"><pre><span></span><code>  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;container&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;menu&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;logo&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;left-navbar&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;conteudo&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;top-navbar&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
 
 <p>Essa div ocupará todo os espaço disponível do <em>viewport</em>, com <code>height: 100vh</code>. A div também estrutura as divs internas (<code>menu</code> e <code>conteudo</code>) utilizando  <em>flex-layout</em> com orientação padrão horizontal.</p>
-<pre class="codehilite"><code class="language-css">.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(153, 153, 248);
-}
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="p">.</span><span class="nc">container</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">vh</span><span class="p">;</span>
+<span class="w">  </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span>
+<span class="w">  </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="p">;</span>
+<span class="w">  </span><span class="k">align-items</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">153</span><span class="p">,</span><span class="w"> </span><span class="mi">153</span><span class="p">,</span><span class="w"> </span><span class="mi">248</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Observe que as <em>divs</em> <code>menu</code> e <code>conteúdo</code> possuem divs internas, sendo as <em>divs</em> <code>logo</code> e <code>left-navbar</code> para <code>menu</code> e <code>top-navbar</code> para <code>conteúdo</code>. A <em>div</em> <code>logo</code> estrutura seus filhos também usando <em>flex-leyout</em>, porém com a orientação vertical. Seus filhos tem a proporção 35/100 e 65/100.</p>
-<pre class="codehilite"><code class="language-css">.menu {
-  height: 100%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(254, 251, 251);
-}
+<div class="codehilite"><pre><span></span><code><span class="p">.</span><span class="nc">menu</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">  </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">  </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span>
+<span class="w">  </span><span class="k">flex-direction</span><span class="p">:</span><span class="w"> </span><span class="kc">column</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">254</span><span class="p">,</span><span class="w"> </span><span class="mi">251</span><span class="p">,</span><span class="w"> </span><span class="mi">251</span><span class="p">);</span>
+<span class="p">}</span>
 
-.conteudo {
-  height: 100%;
-  flex: 4;
-  background-color: rgb(244, 28, 28);
-}
+<span class="p">.</span><span class="nc">conteudo</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">  </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">244</span><span class="p">,</span><span class="w"> </span><span class="mi">28</span><span class="p">,</span><span class="w"> </span><span class="mi">28</span><span class="p">);</span>
+<span class="p">}</span>
 
-.top-navbar {
-  height: 7%;
-  background-color: rgb(32, 244, 28);
-}
+<span class="p">.</span><span class="nc">top-navbar</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="w"> </span><span class="mi">244</span><span class="p">,</span><span class="w"> </span><span class="mi">28</span><span class="p">);</span>
+<span class="p">}</span>
 
-.logo {
-  flex: 35;
-  background-image: url('./images/logo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+<span class="p">.</span><span class="nc">logo</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="mi">35</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s1">&#39;./images/logo.png&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="k">background-size</span><span class="p">:</span><span class="w"> </span><span class="kc">cover</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">no-repeat</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-position</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="p">;</span>
+<span class="p">}</span>
 
-.left-navbar {
-  flex: 65;
-  background-color: rgba(0, 0, 0, 0.656);
-}
-</code></pre>
+<span class="p">.</span><span class="nc">left-navbar</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="mi">65</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mf">0.656</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Note que também foi utilizado o reset de leiaute do css no início do arquivo, utilizando o seletor <code>*</code>:</p>
-<pre class="codehilite"><code class="language-css">* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="o">*</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">  </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">  </span><span class="k">box-sizing</span><span class="p">:</span><span class="w"> </span><span class="kc">border-box</span><span class="p">;</span>
+<span class="w">  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">Arial</span><span class="p">,</span><span class="w"> </span><span class="n">Helvetica</span><span class="p">,</span><span class="w"> </span><span class="kc">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
 
 <h2 id="conclusao">Conclusão</h2>
 <p>Nesta aula, foi apresentada a construção da estrutura base de um <em>dashboard</em>, utilizando divs organizadas de forma hierárquica e controladas por <em>flex-layout</em>. Foi possível entender como a <em>div</em> <code>container</code> atua como elemento principal de organização do <em>viewport</em>, distribuindo os espaços entre menu e conteúdo, além de permitir a criação de subdivisões internas responsáveis pela navegação e apresentação das informações da página.</p>
@@ -239,7 +243,7 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../trabalho_bimestre1_01/" class="btn btn-neutral float-left" title="Trabalho 01 - 1º Bimestre (até 19/03/2026)"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../revisao_prova_bimestre_1/" class="btn btn-neutral float-left" title="REVISÃO DE PROVA - 1º Bimestre - 31/04/206"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="../aula_20260312/" class="btn btn-neutral float-right" title="Aula 12/03/2026 - Programação do leiaute de dashboard - Parte II">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
@@ -263,7 +267,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../trabalho_bimestre1_01/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../revisao_prova_bimestre_1/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../aula_20260312/" style="color: #fcfcfc">Next &raquo;</a></span>

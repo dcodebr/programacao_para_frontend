@@ -1,4 +1,4 @@
-# UNICESUMAR - ADS3SNA - 2026 - Programação para front-end - Trabalho 1º BI (valor 1,0)
+# UNICESUMAR - ADS3SNA - 2026 - Programação para front-end - 1º Trabalho 1º BI (valor 1,0)
 
 > **Link para entrega**: [https://forms.gle/4UJP4J82o2f2Ndip6](https://forms.gle/4UJP4J82o2f2Ndip6)  
 > **Data final**: ***19/03/2026***  
@@ -28,7 +28,9 @@
  - Coloque uma margem inferior no parágrafo de 20px e a cor da fonte em cinza-claro e a fonte em 24px;
  - Coloque o botão com a cor de fundo azul, a cor da fonte em branco, sem nenhuma espessura de borda, com a borda radial de 6px, mude o cursor do mouse para pointer e, ao posicionar o mouse em cima do botão, mude a cor para azul-claro.
 
-***O resultado esperado deve ser:***
+## Resultado esperado
+
+Ao final do trabalho, espera-se o seguinte resultado:
 
 !["Resultado esperado"](../../../images/trabalho_bimestre1_01.png)
 

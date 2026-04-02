@@ -19,7 +19,8 @@ Motivado pelos pedidos de meus alunos, em especial de minha querida aluna *Helen
 
 ***Unicesumar - Análise e Desenvolvimento de Sistemas Turma ADS3SNA***:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trabalho 01 - 1º Bimestre (até 19/03/2026)](unicesumar/2026/adsi3sna/trabalho_bimestre1_01.md)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Aula 10/03/2026 - Programação do leiaute de *dashboard* - Parte I](unicesumar/2026/adsi3sna/aula_20260310.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trabalho 02 - 1º Bimestre (até 15/04/2026)](unicesumar/2026/adsi3sna/trabalho_bimestre1_02.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb"sp;[Aula 10/03/2026 - Programação do leiaute de *dashboard* - Parte I](unicesumar/2026/adsi3sna/aula_20260310.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Aula 12/03/2026 - Programação do leiaute de *dashboard* - Parte II](unicesumar/2026/adsi3sna/aula_20260312.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Aula 17/03/2026 - Programação do leiaute de *dashboard* - Parte III](unicesumar/2026/adsi3sna/aula_20260317.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[REVISÃO DE PROVA - 1º Bimestre - 31/04/2026](unicesumar/2026/adsi3sna/revisao_prova_bimestre_1.md)  
